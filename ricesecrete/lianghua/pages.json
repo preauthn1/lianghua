@@ -1,0 +1,278 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uv-(.*)": "@climblee/uv-ui/components/uv-$1/uv-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/help/help",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/help/detail",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/myTeam/myTeam",
+			"style": {
+				"navigationBarTitleText": "我的团队",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/kol/kol",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/invite/invite",
+			"style": {
+				"navigationBarTitleText": "邀请好友",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/bind/bind",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/strategy/strategy",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/strategy/detail",
+			"style": {
+				"navigationBarTitleText": "策略详情",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [],
+						"backButton": {
+							"background": "rgba(0,0,0,0)"
+						}
+					},
+					"popGesture": "close"
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/wallet/wallet",
+			"style": {
+				"navigationBarTitleText": "钱包",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/profile/settings",
+			"style": {
+				"navigationBarTitleText": "个人设置",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/profile/nickname",
+			"style": {
+				"navigationBarTitleText": "昵称",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/profile/phone",
+			"style": {
+				"navigationBarTitleText": "手机号",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/profile/changePayPassword",
+			"style": {
+				"navigationBarTitleText": "支付密码",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/profile/changePassword",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/profile/language",
+			"style": {
+				"navigationBarTitleText": "切换语言",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/profile/vip",
+			"style": {
+				"navigationBarTitleText": "会员等级",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/mine/yongjin",
+			"style": {
+				"navigationBarTitleText": "佣金",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/mine/feedback",
+			"style": {
+				"navigationBarTitleText": "问题反馈",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [],
+						"backButton": {
+							"background": "rgba(0,0,0,0)"
+						}
+					},
+					"popGesture": "close"
+				}
+			}
+		},
+		{
+			"path": "pages/download/download",
+			"style": {
+				"navigationBarTitleText": "下载APP",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/mine/distributionOrder",
+			"style": {
+				"navigationBarTitleText": "分销订单",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/mine/commissionRecord",
+			"style": {
+				"navigationBarTitleText": "佣金记录",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/mine/commissionDetail",
+			"style": {
+				"navigationBarTitleText": "佣金明细",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/wallet/rechargeRecord",
+			"style": {
+				"navigationBarTitleText": "充值记录",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/wallet/withdrawalRecord",
+			"style": {
+				"navigationBarTitleText": "钱包",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/contact/contact",
+			"style": {
+				"navigationBarTitleText": "联系客服",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black"
+			}
+		}
+	],
+	"tabBar": {
+		"custom": true,
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/home/home"
+			},
+			{
+				"text": "绑定",
+				"pagePath": "pages/bind/bind"
+			},
+			{
+				"text": "策略",
+				"pagePath": "pages/strategy/strategy"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/mine/mine"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
